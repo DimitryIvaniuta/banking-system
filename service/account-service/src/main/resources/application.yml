@@ -1,0 +1,14 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/bank
+  security:
+    user:
+      name: user     # The username for Basic Authentication
+      password: password   # The password for Basic Authentication
+  logging:
+    level:
+      org.springframework.security: DEBUG   # Enable debugging logs for security
