@@ -216,7 +216,6 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 ## 📬 Contact
 
-**Your Name** — [your.email@example.com](mailto:your.email@example.com) — [GitHub](https://github.com/your-github)
+**Dzmitry Ivaniuta** — [diafter@gmail.com](mailto:diafter@gmail.com) — [GitHub](https://github.com/DimitryIvaniuta)
 
-_Star ⭐ this project if you found it helpful!_ 🚀
 
