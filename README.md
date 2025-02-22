@@ -1,10 +1,10 @@
-# 📊 Banking System Microservices
+# Banking System Microservices
 
 A **Java 21**, **Spring Boot**, and **MongoDB**-powered microservices banking system running on **Docker** and hosted on **Google Cloud Platform (GCP)**. This project demonstrates scalable microservice architecture with integrated security, NoSQL data storage, and cloud readiness.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 banking-system/
@@ -22,9 +22,9 @@ banking-system/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### ⚙️ Prerequisites
+###  Prerequisites
 
 - **Java 21**
 - **Gradle 8+**
@@ -34,7 +34,7 @@ banking-system/
 
 ---
 
-### 📦 Running the Project
+### Running the Project
 
 1. **Clone the repository:**
 
@@ -62,9 +62,9 @@ docker-compose up -d mongodb
 
 ---
 
-## ⚡ API Endpoints
+## API Endpoints
 
-### 🔑 **Authentication**
+### **Authentication**
 
 - Basic Authentication is used.
 - **Default credentials:**
@@ -73,31 +73,31 @@ docker-compose up -d mongodb
 
 ---
 
-### 🏦 **Account Service** (`/api/accounts`)
+### **Account Service** (`/api/accounts`)
 
 - **POST** `/api/accounts` — Create new account
 - **GET** `/api/accounts` — List all accounts
 - **GET** `/api/accounts/{id}` — Get account by ID
 
-### 💳 **Transaction Service** (`/api/transactions`)
+### **Transaction Service** (`/api/transactions`)
 
 - **POST** `/api/transactions` — Create a transaction
 - **GET** `/api/transactions/{id}` — Get transaction by ID
 
-### 🚨 **Fraud Detection Service** (`/api/fraud-check`)
+### **Fraud Detection Service** (`/api/fraud-check`)
 
 - **POST** `/api/fraud-check` — Check if a transaction is fraudulent
 
-### 📊 **Reporting Service** (`/api/reports`)
+### **Reporting Service** (`/api/reports`)
 
 - **GET** `/api/reports/accounts` — Get account report
 - **GET** `/api/reports/transactions` — Get transaction report
 
 ---
 
-## ⚙️ Configuration
+##️ Configuration
 
-### 📂 `application.yml`
+### `application.yml`
 
 Each service has its own `application.yml`.
 
@@ -120,9 +120,9 @@ logging:
 
 ---
 
-## 🐳 Docker Setup
+## Docker Setup
 
-### 📂 `docker-compose.yml`
+### `docker-compose.yml`
 
 ```yaml
 version: '3.8'
@@ -148,7 +148,7 @@ docker-compose up -d mongodb
 
 ---
 
-## 🔒 Security
+## Security
 
 - Uses **Spring Security** with **Basic Authentication**.
 - Default user is set in `SecurityConfig.java`.
@@ -167,9 +167,9 @@ public UserDetailsService userDetailsService() {
 
 ---
 
-## 🛠️ Development Tips
+## Development Tips
 
-### 🧩 Importing Project into IntelliJ IDEA
+### Importing Project into IntelliJ IDEA
 
 1. **Open IntelliJ IDEA** → **File** → **Open** → Select `banking-system` folder.
 2. **Mark source directories:**
@@ -178,7 +178,7 @@ public UserDetailsService userDetailsService() {
 3. **Refresh Gradle:**
     - View → Tool Windows → Gradle → Click **Refresh**
 
-### 🔄 Refresh Dependencies
+### Refresh Dependencies
 
 ```bash
 ./gradlew clean build --refresh-dependencies
@@ -186,7 +186,7 @@ public UserDetailsService userDetailsService() {
 
 ---
 
-## 📚 Useful Commands
+## Useful Commands
 
 | Command                         | Description                          |
 |---------------------------------|--------------------------------------|
@@ -198,13 +198,13 @@ public UserDetailsService userDetailsService() {
 
 ---
 
-## 📖 License
+## License
 
 This project is licensed under the **MIT License**. Feel free to use and modify it as needed.
 
 ---
 
-## 💡 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch: `git checkout -b feature/YourFeature`
@@ -214,7 +214,7 @@ This project is licensed under the **MIT License**. Feel free to use and modify 
 
 ---
 
-## 📬 Contact
+## Contact
 
 **Dzmitry Ivaniuta** — [diafter@gmail.com](mailto:diafter@gmail.com) — [GitHub](https://github.com/DimitryIvaniuta)
 
